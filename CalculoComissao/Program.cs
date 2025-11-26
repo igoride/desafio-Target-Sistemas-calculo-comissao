@@ -11,7 +11,7 @@ namespace CalculoComissao
             
             try
             {
-                string path = Path.Combine(AppContext.BaseDirectory, "Assets", "ComissoesJson.txt");
+                string path = Path.Combine(AppContext.BaseDirectory, @"Assets", "ComissoesJson.txt");
                 Console.WriteLine(path);
                 json = File.ReadAllText(path);
             }
